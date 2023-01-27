@@ -20,7 +20,7 @@ export default {
   phone: (account) => account.profile.phone,
   wallet: (account) => account.wallets ?? 0,
   govId: (account) => account.govId ?? [],
-  poAddress: (account) => account.poAddress ?? "null",
+  poAddress: (account) => account.poAddress ?? [],
   dob: (account) => account.profile.dob,
   language: (account) => account.profile.language,
   name: (account) => account.profile.name || account.name,
